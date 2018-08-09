@@ -43,5 +43,11 @@ public class HomePage extends BasePage {
 		new Actions(driver).click(submitBtn).build().perform();
 		return new AccountPage(driver);
 	}
+// 	Let's split thid method into 3 page methods. What we have now is a good example of service method.
+// 	1. fillUsername
+// 	2. fillPassword
+// 	3. clickLogInButton
+// 	All these 3 methods will be conmined into one "logIn" in service
+		
 	
 }
