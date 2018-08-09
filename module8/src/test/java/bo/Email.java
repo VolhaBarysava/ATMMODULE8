@@ -11,7 +11,13 @@ public class Email {
 		this.setSubject(subject);
 		this.setTextBody(textBody);
 	}
-
+// 	Please correct constructor. In case you need to set some values, they should be passed as parameters:
+// 	public Email (String address, ...){
+// this.address = address;
+// 	...
+// }
+// It's a good practice to add a constructor without any parameters:
+// 	public Email(){}
 	public String getMailToAdress() {
 		return mailToAdress;
 	}
