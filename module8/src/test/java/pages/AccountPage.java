@@ -33,6 +33,7 @@ public class AccountPage extends BasePage {
 
 	public static By mailSentTitle = By
 			.cssSelector("[class='message-sent__title']");
+// 	Please make this locator public and add a method isMailSentMessageDisplayed. Locators shouldn't be accessible from tests.
 
 	public CreateEmailPage clickMailCreationBtn() {
 		waitForElementVisible(mailCreationBtn);
