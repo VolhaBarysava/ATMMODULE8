@@ -26,6 +26,7 @@ public class DraftPage extends AccountPage {
 		draftMail.click();
 		return new CreateEmailPage(driver);
 	}
+// 	it seems that this method opens, but not gets an email as it's stated in the name
 
 	public String getDraftMailSubject(int index) {
 		return getDraftMail(index).getAttribute("data-subject");
