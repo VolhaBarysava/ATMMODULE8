@@ -9,7 +9,7 @@ public class User {
 		this.setLogin(login);
 		this.setPassword(password);
 	}
-
+// the same note about the constructor as for Email
 	public String getLogin() {
 		return login;
 	}
