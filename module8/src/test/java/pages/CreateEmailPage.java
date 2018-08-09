@@ -103,6 +103,7 @@ public class CreateEmailPage extends BasePage{
 	}
 
 	public AccountPage send(Email email) {
+// 		It's better to give a meaningful name to the method: sendEmail or clickSendEnailButton
 		waitForElementVisible(mailToAddress);
 		sendBtn.click();
 		return new AccountPage(driver);
